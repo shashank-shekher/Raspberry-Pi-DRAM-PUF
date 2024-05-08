@@ -13,7 +13,7 @@
     cd TARGET_FOLDER
     sudo apt update && sudo apt full-upgrade -y
     sudo apt install git minicom -y
-    sudo apt install libpgiod-dev -y
+    sudo apt install libgpiod-dev -y 
     git clone https://github.com/Taywee/args.git
     cd args
     sudo make install DESTDIR=/usr
